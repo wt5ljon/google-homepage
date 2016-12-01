@@ -3,24 +3,29 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Google</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div>
+		<div id="header">
 			<a href="#">Gmail</a>
 			<a href="#">Images</a>
 			<a href="#">Google Apps</a>
-			<form action="#" method="POST" name="signin">
-				<input type="submit" value="Sign In">
-			</form>
+			<input type="button" class="button" value="Sign In">
 		</div>
-		<div>
-			<form action="#" method="POST" name="search">
-				<input type="text" name="input"><br>
-				<input type="submit" value="Google Search">
-				<input type="submit" value="I'm Feeling Lucky">
-			</form>
+		<div id="logo">
+			<img src="googlelogo_color_272x92dp.png" alt="google logo" width="272" height="92">
 		</div>
-		<div>
+		<div id="inputfields">
+			<div id="inputbox">
+				<input type="text" name="input" size="42"><br>
+			</div>
+			<div id="inputbuttons">
+				<input type="button" class="button" value="Google Search">
+				<input type="button" class="button" value="I'm Feeling Lucky">
+			</div>
+		</div>
+		<div id="footer">
 			<a href="#">Advertising</a>
 			<a href="#">Business</a>
 			<a href="#">About</a>
